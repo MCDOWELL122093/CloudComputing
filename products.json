@@ -1,34 +1,35 @@
 [
     {
-        "product_name": "adultgasmask",
-        "id":1,
-        "price":240.00,
-        "description": "CM-6M Tactical Gas Mask",
-        "url": "adultgasmask.html",
-        "thumbnailUrl": "adultgasmaskthumbnail.jpg",
+      "product_name": "Adult Gas Mask",
+      "id": 2,
+      "price": 240.00,
+      "description": "CM-6M Tactical Gas Mask",
+      "url": "apples.html",
+      "thumbnailUrl": "adultgasmaskthumbnail.jpg",
+      "types": ["Fuij","Red","Granny Smith"]
     },
     {
-        "product_name": "childgasmask",
-        "id":1,
-        "price": 180.00,
-        "description": "MD-1 Children's Gas Mask",
-        "url": "childgasmask.html",
-        "thumbnailUrl": "childgasmaskthumbnail.jpg",
+      "product_name": "Kid Gas Mask",
+      "id": 2,
+      "price": 180.00,
+      "description": "MD-1 Children's Gas Mask",
+      "url": "banana.html",
+      "thumbnailUrl": "kidgasmaskthumbnail.jpg"
     },
     {
-        "product_name": "filter",
-        "id":1,
-        "price": 80.00,
-        "description": "NBC-77 SOF CBRN Gas Mask Filter",
-        "url": "filter.html",
-        "thumbnailUrl": "filterthumbnail.jpg",
+      "product_name": "Filter",
+      "id":8 ,
+      "price": 80.00,
+      "description": "NBC-77 SOF CBRN Gas Mask Filter",
+      "url": "orange.html",
+      "thumbnailUrl": "filterthumbnail.jpg"
     },
     {
-        "product_name": "hazsuit",
-        "id":1,
-        "price": 137.00,
-        "description": "HAZ-SUIT Protective CBRN Hazmat Suit",
-        "url": "hazsuit.html",
-        "thumbnailUrl": "hazsuitthumbnail.jpg",
-    },
-]
+      "product_name": "Haz-suit",
+      "id": 4,
+      "price": 137.00,
+      "description": "HAZ-SUIT Protective CBRN Hazmat Suit",
+      "url": "kiwi.html",
+      "thumbnailUrl": "hazsuitthumbnail.jpg"
+    } 
+  ]
