@@ -3,12 +3,44 @@
     <head>
       <title>Page Title</title>
     </head>
-    <body>
-      <table id="totals"></table>
+    <style>
+        h1 {text-align: center;}
+        p {text-align: center;}
+        div {text-align: center;}
+        
 
+
+        body {
+        background: rgb(84, 172, 107);
+        }
+
+        .content {
+        max-width: 500px;
+        margin: auto;
+        background: rgb(6, 9, 6);
+        padding: 10px;
+        }
+        
+        </style>
+    
+    <body>
+
+
+        <h1>GET PREPARED FOR NUCLEUR FALLOUT</h1> 
+        <h1>BETTER NOW THAN NEVER</h1>
+
+        <p>The media often paints preppers in a less than appealing light because of a few extreme preppers that make an impressive, but a non-realistic story. Real preppers are quite different than Doomsday Preppers</p>
+    </style>
+    
+        <p>What are today’s preppers actually preparing for? Modern preppers are preparing for a time when life as we know it may get a little challenging. Preppers are getting ready to be self-reliant regardless of the challenges that life may throw their way.</p>
+        <a href="https://canadianpreparedness.com/collections/mountain-house-food-canadian-prepper/products/happy-yak-mandarin-beef-and-rice-freeze-dried-food">Visit the Canadian Prepper's official site</a>
+
+
+      <table id="totals"></table>
+      
       <script>
 
-fetch('https://raw.githubusercontent.com/MCDOWELL122093/CloudComputing/main/products.json')
+fetch('https://raw.githubusercontent.com/MCDOWELL122093/CloudComputing/Develop/Homework4/products.json')
           .then(response => response.json())
           .then(data => processData(data));
 
@@ -56,6 +88,7 @@ fetch('https://raw.githubusercontent.com/MCDOWELL122093/CloudComputing/main/prod
         }
       </script>
 
-
+<button type="button" class="btn btn-primary"><span class="spinner-border spinner-border-sm"></span>Help?</button>
+<button type="button" class="btn btn-primary"><span class="spinner-border spinner-border-sm"></span>Contact Us</button>
     </body>
 </html>
